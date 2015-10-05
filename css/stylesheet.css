@@ -1,0 +1,334 @@
+html,body{
+ height:100%;
+ width:100%;
+ background-color:#F9DBF7;
+
+}
+header{
+ background-color:white;
+ border:solid 10px #F7A6F3;
+ height:225px;
+ margin: 20px;
+ overflow:hidden;
+}
+ 
+#borde{
+ padding:10px;
+ }
+
+#separacion{
+ height:40px;
+ background-color:#F9DBF7;  
+}
+
+#wrapper{
+ float:center;
+ margin: 20px 30px 10px 30px;
+ background-color: #CBFFBC;
+ padding:2px 0 0 0;
+}
+
+header p{
+  font-size: 80px;
+  float:right;
+  margin: 60px 155px 60px 0px;
+  height:200px;
+  margin-left:-100px;
+}
+
+#logo{
+ float:left;
+ overflow:hidden;
+ margin: 60px 150px 0px 60px;
+}
+
+#logo img{
+ height:100px;
+ width:100px;
+}
+
+h2 {
+ text-align:center;
+ font-family:'Special elite', cursive;
+}
+
+#logotienda{
+  float:left;
+  overflow:hidden;
+  margin: -60px 0px 0px 0px;
+}
+
+#logotienda img{
+ height:320px;
+ width:500px;
+ 
+}
+
+#slides{
+ width: 600px;
+ margin: 0px 0px 80px 100px;
+ border: solid 30px white;
+ display:none;
+}
+
+img{
+  text-decoration: none;
+}
+
+footer{
+  overflow:hidden;
+  background-color: white;
+  margin: 20px 0 0 30px;
+  border: solid 15px black;
+  width: 1200px;
+}
+
+ #slogan
+ padding:15px;
+ }
+ 
+ #slogan h2 {
+ color:white
+ }
+
+ #slogan p{
+ color:white;
+ text-align: center;
+ }
+ .slidesjs-pagination a{
+  display:none;
+
+}
+ .slidesjs-pagination {
+      margin: 6px 0 0;
+      float: right;
+      list-style: none;
+    }
+
+    .slidesjs-pagination li {
+      float: left;
+      margin: 0 1px;
+    }
+
+    .slidesjs-pagination li a {
+      display: block;
+      width: 13px;
+      height: 0;
+      padding-top: 13px;
+      background-image: url(img/pagination.png);
+      background-position: 0 0;
+      float: left;
+      overflow: hidden;
+    }
+
+    .slidesjs-pagination li a.active,
+    .slidesjs-pagination li a:hover.active {
+      background-position: 0 -13px
+    }
+
+    .slidesjs-pagination li a:hover {
+      background-position: 0 -26px
+    }
+
+  #main{
+   
+   background-color: #F7A6F3;;
+   padding:40px 0 30px 0;
+   border: solid 20px #CBFFBC;
+   width: 800px;
+   float: left;
+   }  
+
+   #face,#twitter,#google{
+   height:30px;
+   width:30px;
+   margin:0 5px 0 5px; 
+  }
+ 
+  
+ #contacto h2{
+ color:gray;
+ 
+ }
+  #contacto p{
+  color:gray;
+  text-align:center;
+  font-size:12px;  
+}
+ aside{
+ background-color:purple;
+ height:100%;
+ width:100px;
+ overflow:hidden;
+ opacity:0.4;
+ float:left;
+ 
+  }
+  
+ aside:hover{
+ opacity:1;
+  }
+ aside img{
+  padding:20px;
+
+  }
+ 
+  #sidr p{
+  text-align:center;
+  color:pink;
+  font-size:11px;
+  font-family: 'Aldrich', sans-serif;
+
+ }
+  #primary{
+    overflow: hidden;
+    float: right;
+    background-color: white;
+    width: 300px;
+    height: 915px;
+    border: solid 20px #ACF4FB;
+    margin: 0 30px 0 0;
+    background-color: #CBFFBC;
+
+  }
+
+  #uno{
+    width: 250px;
+    text-align: justify;
+    border: solid 10px #F7A6F3;
+    margin: 42px 10px 10px 15px;
+    background-color: white;
+  }
+
+  #dos{
+    width: 250px;
+    text-align: justify;
+    border: solid 10px #F7A6F3;
+    margin: 42px 10px 10px 15px;
+    background-color: white;
+  }
+
+  #tres{
+    width: 250px;
+    text-align: justify;
+    border: solid 10px #F7A6F3;
+    margin: 42px 10px 10px 15px;
+    background-color: white;
+  }
+
+
+  #secondary{
+    overflow: hidden;
+    border: solid 20px #ACF4FB;
+    width: 1210px;
+    margin: 1050px 0 0 20px;
+    background-color: #CBFFBC;
+  }
+
+  #one{
+    background-color: white;
+    float: left;
+    width: 350px;
+    border: solid 10px #F7A6F3;
+    text-align: justify;
+    margin: 20px 20px 20px 10px;
+  }
+
+  #two{
+    background-color: white;
+    float: left;
+    width: 350px;
+    border: solid 10px #F7A6F3;
+    text-align: justify;
+    margin: 20px 20px 20px 20px;
+  }
+
+  #three{
+    background-color: white;
+    float: left;
+    text-align: justify;
+    border: solid 10px #F7A6F3;
+    width: 350px;
+    margin: 20px 0px 20px 20px;
+  }
+
+
+ #frase{
+  text-align:center;
+  font-family: 'Aldrich', sans-serif;
+
+ }
+
+ nav > ul > li {
+
+  float: left;
+  text-decoration: none;
+  list-style: none;
+
+}
+
+nav > ul > li > a {
+
+  text-decoration: none;
+  text-align: justify;
+  font-size: 15px;
+  letter-spacing: 4px;
+  color: purple;
+  padding: 0px 50px 7px 0px;
+}
+
+caption{
+  color: #CBFFBC ;
+}
+
+table {
+  background-color: white;
+  text-align: center;
+  border: solid 15px #ACF4FB;
+  color: gray;
+  }
+
+th {
+    border: solid 4px #ACF4FB;
+    background-color: #ACF4FB;
+}
+
+td {
+  border: solid 4px #ACF4FB;
+  background-color: white;
+}
+
+#main2{
+   background-color: #F7A6F3;
+   padding:40px 0 30px 0;
+   border: solid 20px #CBFFBC;
+   float: center;
+
+}
+
+#correo{
+  text-align: center;
+}
+
+caption {
+  font-size: 30px;
+}
+
+#bio {
+  text-align: justify;
+  color: purple;
+  background-color: #F7A6F3;
+  border: solid 15px #CBFFBC;
+}
+
+#nombre{
+  text-align: center;
+  font-size: xx-large;
+  color: white;
+}
+
+#imag{
+  height: 300px;
+  float: center; 
+  margin: 0 0 0 450px;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <head>
+      <title>Ventas Fer Club</title>
+      <meta charset="utf-8"/>
+      <link type="text/css" rel= "stylesheet" href="css/stylesheet.css">
+      <link rel="stylesheet" href="css/jquery.sidr.light.css">
+    </head>
+
+  <body>
+    <div id="wrapper">
+   
+      <header>    
+
+          <div id ="logotienda">
+            <a href="index.html"><img src="img/logo.png"></img>
+          </div>
+
+          <nav>
+              <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="biografia.html">Biografía</a></li>
+                <li><a href="academic.html">Académico</a></li>
+                <li><a href="form.html">Contacto</a></li>
+                <br>
+                <p>Contacto</p>
+              </ul>
+          </nav>
+
+      </header> 
+
+       <div id="separacion">
+      </div>
+      
+  <form action="http://andreihelo-sinatra.herokuapp.com/contact">
+    <section id="main2">
+    <fieldset>
+      <legend>Información Personal:</legend>
+      Nombre: <br>
+      <input type="text" name="person[name]"></input><br>
+      <br>
+      Sexo: <br>
+      <input type="radio" name="person[genre]" value="femenino"> Femenino </input><br>
+      <input type="radio" name="person[genre]" value="masculino"> Masculino</input><br>
+      <br>
+      Fecha de nacimiento:
+      <br><input type="date" name="person[birthdate]"><br>
+      <br>
+      Ciudad de origen: <br>
+        <select name="person[city]">
+        <option value="Seleccione" select="select">Seleccione su ciudad</option>
+        <option value="Chihuahua">Chihuahua</option>
+        <option value="Ojinaga">Ojinaga</option>
+        <option value="Juarez">Juárez</option>
+        <option value="Parral">Parral</option><br>
+        </select>
+        <br>
+      </fieldset>
+      <fieldset>
+        <legend>Preferencias:</legend>
+        Selecciona la opción que mas concuerde contigo:<br>
+        <input type="checkbox" name="person[preferences][]" value="codigo">Me gusta tirar código mas de 1 hora al día.</input>
+      <br>
+      <input type="checkbox" name="person[preferences][]" value="videojuegos">Tengo como mínimo una consola y un videojuego de la misma.</input>
+      <br>
+      <input type="checkbox" name="person[preferences][]" value="gadgets">Leo sobre los últimos gadgets del momento.</input>
+      <br>
+      <br>
+      Escríbenos tu comentario:<br>
+      <textarea name="message" rows="10" cols="30">Tu comentario...</textarea>
+      </fieldset>
+      <input type="submit" value="submit"></input>
+    </fieldset>
+    </section>
+  </form>
+<div id="correo">
+<p>
+Enviar un correo al administrador:
+<a href="mailto:a271669@uach.mx?Subject=Hello%20again" target="_top">Send Mail</a>
+</p>
+<br>
+
+</div>
+</div>
+</body>
+<footer id="contacto" >
+         <h2>Contáctanos<a href="https://www.facebook.com/feernnaannddaLPZ"><img id=face src="img/facebook.png" /></a>
+         <a href="https://twitter.com/_FernandaLopez"><img id= twitter src="img/twitter.png"/></a>
+         <a href="https://plus.google.com/u/0/103000689599876519478/posts"><img id= google src="img/google.png" /></a></h2>
+        <p>Queda totalmente prohibida la reproducción y/o copia de cualquier imagen de prendas expuesta en esta página.<p>
+        <p>Todos los derechos reservados©.<p> 
+</footer>
+</html>
